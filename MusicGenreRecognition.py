@@ -13,3 +13,7 @@ import seaborn
 
 
 print("Hello World! This is the first commit line, I hope you like it!")
+
+
+import cowsay
+cowsay.cow("I want to be a contributor")
