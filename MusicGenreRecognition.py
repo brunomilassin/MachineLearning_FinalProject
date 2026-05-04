@@ -4,10 +4,10 @@
 # implementation of a machine learning model to classify music genres based on audio features.
 
 #the code will likely contain elements from these libraries:
-import librosa # audio loading and feature extraction
+#import librosa # audio loading and feature extraction
 import numpy # numerical arrays
 import pandas # dataframes
-import scikit-learn # ML models, train/test split, metrics
+#import scikitlearn # ML models, train/test split, metrics
 import matplotlib # plots
 import seaborn 
 
