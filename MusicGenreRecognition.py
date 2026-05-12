@@ -9,7 +9,6 @@ import numpy as np# numerical arrays
 import pandas as pd # dataframes
 #import scikitlearn # ML models, train/test split, metrics
 import matplotlib.pyplot as plt # plots
-import seaborn 
 import os
 
 
@@ -67,3 +66,5 @@ def load_data(dataset_path=DATASET_PATH, n_mfcc=N_MFCC):
 
     return np.array(features), np.array(labels)
 
+
+X, y = load_data()
